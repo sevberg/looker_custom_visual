@@ -36,6 +36,7 @@ const visObject = {
   * the data and should update the visualization with the new data.
   **/
 	updateAsync: function(data, element, config, queryResponse, details, doneRendering){
+    console.log({message:"MESSAGE FROM LOOKER", data});
     // set the dimensions and margins of the graph
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = 960 - margin.left - margin.right,
