@@ -1,0 +1,19 @@
+{
+    "label": "Sev's Simple Visualization",
+    "category_label": "plug-ins",
+    "branding": {
+        "image_uri": "https://avatars2.githubusercontent.com/u/11252091?s=400&u=c0d3f840f9cf6745787e0818c5fa72056244dc7d&v=4",
+        "tagline": "Use this to show things."
+    },
+    "constants": {
+        "vis_label": {
+            "label": "Visualization Label",
+            "description": "This label will appear in the visualization selector in the Looker Explore UI."
+        },
+        "vis_id": {
+            "label": "Visualization Id",
+            "description": "This must be a unique ID across all visualizations.",
+            "value_constraint": "visualization"
+        }
+    }
+}
